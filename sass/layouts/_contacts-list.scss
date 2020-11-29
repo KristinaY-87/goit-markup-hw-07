@@ -1,0 +1,24 @@
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+
+.mail-link {
+  margin-right: 50px;
+}
+.contacts-item:hover .contacts-item-svg,
+.contacts-item:focus .contacts-item-svg {
+  fill: $accent-cl;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-item-svg {
+  fill: $main-text-cl;
+  margin-right: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

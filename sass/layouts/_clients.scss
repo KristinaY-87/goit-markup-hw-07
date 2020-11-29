@@ -1,0 +1,33 @@
+.list-clients {
+  display: flex;
+}
+.clients-icons-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  background-color: $white;
+  border: 1px solid $gray;
+  border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: $accent-cl;
+  }
+
+  &:hover .clients-icons-svg,
+  &:focus .clients-icons-svg {
+    fill: $accent-cl;
+  }
+}
+.clients-icons-svg {
+  fill: $gray;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

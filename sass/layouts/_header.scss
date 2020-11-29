@@ -1,0 +1,17 @@
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  .link:hover,
+  .link:focus {
+    color: $accent-cl;
+  }
+}
+.header-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
